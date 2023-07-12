@@ -1,0 +1,21 @@
+<VRTDataset rasterXSize="5544" rasterYSize="2052">
+  <SRS dataAxisToSRSAxisMapping="1,2">GEOGCS["unknown",DATUM["Unknown based on WGS84 ellipsoid",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]</SRS>
+  <GeoTransform>  9.4900000000000006e+01,  8.3333330000000001e-03,  0.0000000000000000e+00,  6.0000000000000000e+00,  0.0000000000000000e+00, -8.3333330000000001e-03</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1" blockYSize="1" subClass="VRTRawRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">4028</MDI>
+      <MDI key="STATISTICS_MEAN">333.4961677052</MDI>
+      <MDI key="STATISTICS_MINIMUM">-24</MDI>
+      <MDI key="STATISTICS_STDDEV">519.5431008155</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">19.7</MDI>
+    </Metadata>
+    <Description>IDN_msk_alt</Description>
+    <NoDataValue>-9999</NoDataValue>
+    <SourceFilename relativeToVRT="1">IDN_msk_alt.gri</SourceFilename>
+    <ImageOffset>0</ImageOffset>
+    <PixelOffset>2</PixelOffset>
+    <LineOffset>11088</LineOffset>
+    <ByteOrder>LSB</ByteOrder>
+  </VRTRasterBand>
+</VRTDataset>
